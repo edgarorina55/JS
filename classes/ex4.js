@@ -13,7 +13,7 @@ class Counter {
         this.value--;
     }
     reset() {
-        this.value = 100;
+        this.value = 10;
     }
     getValue() {
         return this.value;
