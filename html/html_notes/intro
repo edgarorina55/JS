@@ -8,3 +8,10 @@ HTML Intro
 
 
 Elements 
+.complete structure with tags and content
+    <p class='text'>Hello Adagga</p>
+.tag - the actual keyword/name enclosed in angle brackets that tells the browser what kind of context to expect 
+
+<html> - root element; contains all the other tags 
+<head> - section containing info like the page title 
+<body> - section containing the visible content shown in the browser 
