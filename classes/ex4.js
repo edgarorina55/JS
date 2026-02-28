@@ -4,8 +4,7 @@
 
 class Counter {
     constructor() {
-        this.value = 0;
-    }
+        this.value = 0;     
 
     increment() {
         this.value++;
@@ -27,3 +26,8 @@ c.increment();
 console.log(c.getValue());
 c.reset();
 console.log(c.getValue());
+
+// this exercise shows how to store the internal state in a class (this.value)'
+// how instance methods modify that state,
+// how to expose state safely through a getter method (getValue)
+// this is about STATE constraints 
