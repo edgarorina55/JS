@@ -1,0 +1,9 @@
+Document Type Declaration
+
+.its an instruction
+.tells the web browser which HTML version the page is written in, ensuring that the browser renders the page correctly.
+.its not an HTML tag
+.not case sensitive
+
+.uses specific rendering mode - helps browser to determine how to display the content of the page
+
