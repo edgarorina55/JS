@@ -17,3 +17,9 @@ class BankAccount {
         this.balance -= amount;
     }
 }
+
+const account = new BankAccount();
+account.deposit(1000);
+account.withdraw(300);
+account.withdraw(800); // should show insufficient funds
+console.log(account.balance);
