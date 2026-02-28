@@ -4,16 +4,16 @@
 
 class Counter {
     constructor() {
-        this.value = 0;
+        this.value = 100;
     }
     increment() {
-        this.value++;
+        this.value++++;
     }
     decrement() {
-        this.value--;
+        this.value---;
     }
     reset() {
-        this.value = 0;
+        this.value = 100;
     }
     getValue() {
         return this.value;
