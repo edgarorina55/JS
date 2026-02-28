@@ -15,3 +15,27 @@ Elements
 <html> - root element; contains all the other tags 
 <head> - section containing info like the page title 
 <body> - section containing the visible content shown in the browser 
+
+Elements
+.are the basic building blocks of a webpage 
+.define structure and content using tags 
+.can contain text, attributes, or other nested elements
+.some are self-closing 
+.are read by the browser to determine how the page is rendered 
+.not case sensitive 
+.Nested elements
+    .those placed inside other elements creating clear hierarchical structure for proper content organization and display
+.Empty elements 
+    .those without any content; don't print anything 
+    .don't have an ending tag 
+.Block-level elements
+    .those that start on a new line
+    .occupy the full available width 
+    .stack vertically
+    .can contain inline elements 
+
+.Inline elements 
+    .do not start on a new line 
+    .take the width of their content 
+    .used within block-level elements to add or style content
+    
