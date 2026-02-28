@@ -19,6 +19,6 @@ const movies = [
     new Movie("Black Panther", 1999, 6.9)
 ];
 
-const classics = movies.filter(movies.isClassic());
+const classics = movies.filter(m => m.isClassic());
 console.log(classics);
 
