@@ -9,3 +9,19 @@ Attributes
     .name  - specifies the kind of additional info or property getting defined for the element 
     .value - value assigned to define the specific setting/ behavior 
             .always placed in quotes  
+
+
+Types
+.classified based on their function and the type of elements they modify
+
+    .class - groups elements and allows styling 
+    .style - inline CSS styles
+    .src - specifies the source of various resources 
+    .contenteditable - determines whether the content within the element is editable 
+    .role - specifies the element's accessibility role 
+    .tabindex - determines the order of focus during keyboard navigation
+    .id - assigns a unique identifier to an element, allowing targeting with CSS or JS
+    .alt - provides alternative text for images, essential for accessibility and SEO
+    .title - creates a tooltip that appears whrn a user hovers over the element
+    .lang - specifies the language of the element's content, aiding with translation and accessibility 
+    
