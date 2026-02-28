@@ -1,4 +1,4 @@
-HTML Intro
+Elements
 
 .standard language for creating and structuring web pages using tags and elements
 .defines how content like text, images, and links appear in a browser
@@ -34,6 +34,6 @@ Elements
     .can contain inline elements 
 
 .Inline elements 
-    .do not start on a new line 
+    .do not start on a new line/ stay within the text flow 
     .take the width of their content 
     .used within block-level elements to add or style content
