@@ -6,4 +6,15 @@ Document Type Declaration
 .not case sensitive
 
 .uses specific rendering mode - helps browser to determine how to display the content of the page
+    .standard mode - renders the page according to the modern specifications
+    .quirks mode - emulates older browser behavior for compatibility with legacy websites
 
+Without it;
+.browsers may enter quirks mode, leading to inconsistent rendering across different browsers.
+.rendering issues - CSS properties and layout may not work as intended, causing design problems.
+.cross browser inconsistencies - different browsers may interpret the HTML differently, leading to unpredictable results.
+.unpredictability - rendering becomes unpredictable, making it difficult for developers to ensure a 
+consistent user experience across different browsers and devices.
+    .debugging becomes more challenging 
+    .avoid deprecated attributes e.g bgcolor, align; use CSS instead 
+    
