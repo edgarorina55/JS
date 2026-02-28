@@ -1,0 +1,10 @@
+HTML Intro
+
+.standard language for creating and structuring web pages using tags and elements
+.defines how content like text, images, and links appear in a browser
+.markup language - it annotates text to define how it is structured and displayed in web browsers
+.static - doesn't provide interactive features 
+    .can be combined with CSS for styling and JS for interactivity
+
+
+Elements 
