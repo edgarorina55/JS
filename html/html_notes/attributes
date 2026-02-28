@@ -24,4 +24,17 @@ Types
     .alt - provides alternative text for images, essential for accessibility and SEO
     .title - creates a tooltip that appears whrn a user hovers over the element
     .lang - specifies the language of the element's content, aiding with translation and accessibility 
+
+
+    Other attributes 
+    .event attributes - define the actions to be taken on specific browser events 
+    .input - specific to input elements within <form> tags
+    .image - specific to the <img> element for handling images 
+    .link - specific to linking elements like <a> and <link>
+    .table - used with table elements like <table>, <th>, <tr>, and <td>
+    .style - define styles directly on an element 
+    .media - related to media elements like <audio> and <video>
+    .accessibility - help improve accessibility, such as alt for images and aria-* attributes 
+    .meta - used with meta elements to specify metadata like charset
+
     
