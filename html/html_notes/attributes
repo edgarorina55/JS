@@ -1,0 +1,11 @@
+Attributes
+
+.are special words used within the opening tag of an HTML element 
+.provide additional info about HTML elements 
+.used to configure and adjust the element's behavior, appearance, or functionality 
+    .tell the browser how to render the element/ how it should behave during interactions 
+.formatted as name="value"
+.comprises:
+    .name  - specifies the kind of additional info or property getting defined for the element 
+    .value - value assigned to define the specific setting/ behavior 
+            .always placed in quotes  
