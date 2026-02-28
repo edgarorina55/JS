@@ -36,3 +36,11 @@ Interesting Facts about Links and Navigation
     .create a link that sends an email to multiple recipients by separating their email addresses with a comma. can also include a subject line
         <a href="edgarorina@gmail.com, edgar.momanyi.1@us.af.mil?subject=Hello">Email Us</a>
 
+4. link to specific page section
+    .using the id attribute, create links that navigate to specific sections within the same page
+        .particularly useful for long pages with multiple sections 
+
+5. tooltip links with title 
+    .adding a title attribute creates a tooltip when hovering over a link
+        <a href="https://www.edgarorina.com/" title="Visit my homepage">Edgar Adagga</a>
+        
