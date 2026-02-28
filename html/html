@@ -5,3 +5,11 @@ Interesting facts
 .its everywhere - besides web browsers, its also in many applications, email clients, and even mobile apps 
 .its platform independent - it can run on any platform or browser, making it incredibly versatile and universally accessible 
 .its case insensitive - lowercase is preferred for consistency
+.no closing tags for some elements - self closing 
+.semantic elements exist to improve content organization and accessibility 
+.its still evolving 
+.APIs - it supports several powerful APIs
+    .geolocation API to access user location 
+    .canvas API for drawing graphics and animations 
+    .web storage for storing data locally in the browser 
+.
