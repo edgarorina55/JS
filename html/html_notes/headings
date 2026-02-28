@@ -1,0 +1,13 @@
+Headings
+
+.define the titles and subtitles of sections of webpages 
+.help organize and create a structure that is easy to navigate 
+    .search engines use them to understand the page structure, and aid in SEO
+
+Pointers
+.use only one <h1> per page 
+.maintain a logical structure - h1 > h2 > h3 > h4 
+.keep them descriptive - clearly describe the content that follows; easier understanding of what each section is all about 
+.avoid overusing heading tags - they are for organizing & not styling content; avoid using them for emphasis 
+
+
