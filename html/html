@@ -19,4 +19,17 @@ Interesting facts about HTML
 functionality
 
 
-Interesting Facts about links and navigation 
+Interesting Facts about Links and Navigation 
+
+.links (anchors) - they enable users to navigate between the different web pages or sections of the same page 
+
+1. HTTP link Header for Resource Preloading 
+    .servers can send a link header to preload resources before the HTML is parsed
+        .this is different from the <link> tag; its used for advanced performance optimization
+            link: </styles.css>; rel=preload; as=style
+            
+2. <base> tag for global URLs 
+    .it sets a default URL for all relative links, simplifying navigation 
+        <a href="about.adagga.com">About Adagga</a>
+
+3. 
