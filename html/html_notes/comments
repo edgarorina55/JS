@@ -1,0 +1,9 @@
+Comments 
+
+.HTML does not support nested comments
+    .placing a comment inside another can break the comment structure and lead to rendering or parsing issues 
+
+.they are removed in production:
+    .they slightly increase size
+    .may expose internal logic/ notes 
+    
