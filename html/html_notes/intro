@@ -7,7 +7,6 @@ HTML Intro
     .can be combined with CSS for styling and JS for interactivity
 
 
-Elements 
 .complete structure with tags and content
     <p class='text'>Hello Adagga</p>
 .tag - the actual keyword/name enclosed in angle brackets that tells the browser what kind of context to expect 
@@ -38,4 +37,3 @@ Elements
     .do not start on a new line 
     .take the width of their content 
     .used within block-level elements to add or style content
-    
