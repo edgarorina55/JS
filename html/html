@@ -12,4 +12,7 @@ Interesting facts
     .geolocation API to access user location 
     .canvas API for drawing graphics and animations 
     .web storage for storing data locally in the browser 
-.
+.comments - can be added, always, anytime 
+.custom elements - it allows developers to create their own custom tags using Web Components, providing flexibility and reusability
+.as an Art - its used with CSS to create ASCII art or intricate designs, showcasing its creative potential beyond 
+functionality
