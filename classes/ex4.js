@@ -7,10 +7,10 @@ class Counter {
         this.value = 100;
     }
     increment() {
-        this.value++++;
+        this.value++;
     }
     decrement() {
-        this.value---;
+        this.value--;
     }
     reset() {
         this.value = 100;
