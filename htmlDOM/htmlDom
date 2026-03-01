@@ -1,0 +1,6 @@
+HTML DOM
+
+Document Object Model
+.structured representation of a web page 
+.allows developers to access, modify, and control webpage content and structure using JS
+.it powers most dynamic website interactions, enabling features like real-time updates, form validation, and interactive user interfaces 
