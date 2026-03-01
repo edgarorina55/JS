@@ -14,3 +14,16 @@ list:
 <figure>/ <figcaption> - used together in HTML to display an image/ illustration with a descriptive caption
 <header> - for the header of a section introductory of a page 
     .can be multiple in a page 
+<footer> - at the bottom of any article or document
+    .can contain contain details, copyright info
+    .can be multiple footers in a page 
+<main> - defines the main content of the document
+    .should have unique content
+<section> - splits page into sections like introduction, contact information, details 
+<nav> - defines a set of navigation links in the form of a navigation bar or nav menu
+<mark> - highlights the text 
+
+Pointers
+.don't overuse <div> - use semantic elements where appropriate instead of non-semantic <div> elements to provide more specific info about the content
+.structure content logically - to reflect the meaning and importance of the info
+.validate your HTML - use HTML validator to ensure use of semantic elements adheres to HTML5 standards
