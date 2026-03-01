@@ -1,0 +1,9 @@
+Tags 
+
+.<p> 
+.defines a paragraph of text 
+.automatically adds space before and after the content
+.block-level element 
+.browsers automatically add line breaks and spacing before and after each tags 
+.due to browsers adding default styling to <p> tags, override them with CSS
+    
