@@ -41,7 +41,7 @@ Interesting Facts about Links and Navigation
         .particularly useful for long pages with multiple sections 
             <a href="#contact">Go to Contact</a>
             <h2 id="contact">Contact Section</h2>
-            
+
 5. tooltip links with title 
     .adding a title attribute creates a tooltip when hovering over a link
         <a href="https://www.edgarorina.com/" title="Visit my homepage">Edgar Adagga</a>
@@ -54,3 +54,77 @@ Interesting Facts about Links and Navigation
 7. rel="alternate" for alternative formats 
     .it indicates an alternative representation of the current document, such as a PDF version of a webpage 
         <link rel="alternate" type="application/pdf" href="article.pdf">           
+
+
+
+
+Best practice when building HTML website:
+.start with clean, semantic HTML
+    .use tags that describe meaning, not appearance; for easier reading, maintaining, and styling 
+        .search engines understand the structure better
+        .screen readers work properly 
+        .CSS becomes simpler
+
+        >>header
+        nav
+        main
+        section
+        article
+        footer
+.keeping the folder structure predictable:
+                        project/
+                            index.html
+                            /css
+                                styles.css
+                            /js
+                                script.js
+                            /images
+                                logo.png
+
+.don't mix indenting; either tabs or 2 spaces 
+.lowercase file names 
+.close all tags properly 
+.keep all attributes in a consistent order 
+.add comments to explain sections 
+.avoid inline styles; use class instead, and define them in CSS 
+    <p style="color: red;">Hello</p> - avoid
+    <p class="warning">Hello</p>  - the way 
+        .warning {
+            color: red;
+            }
+            >> defining them in CSS
+.always include alt text for images 
+    .helps screen readers, improves SEO, and loads fallback text if the image fails 
+        <img src="dog.png" alt="Golden retriever running in grass">
+.use the correct meta tags 
+    .typical HTML page starts with:
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>My Website</title>
+        </head>
+            .viewport - ensures site works on mobile devices 
+.test site early and often; catch mistakes early
+.build in layers:
+    .write the HTML structure
+    .add basic CSS
+    .add layout (Flexbox/Grid)
+    .add interactivity with JS
+
+.using tools that help me learn:
+    .VS Code eith extensions - live server, prettier
+    .browser devTools for debugging 
+    .GitHub for version control and backups 
+
+
+>>> 
+.learn semantic HTML
+.build small pages 
+.add CSS basics 
+.learn Flexbox
+.learn Grid
+.build a multi-page website
+.add JS for interactivity
+.deploy to GitHub pages 
