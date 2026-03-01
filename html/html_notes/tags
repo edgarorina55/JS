@@ -36,4 +36,33 @@ Tags
 .doesn't have attributes of its own, but can use global attributes - id, class, style, etc.
 .it also supports event attributes like onclick, onmouseover, etc. for interactivity
 .can be multiple <header> elements in a document, but they should be used to group introductory content for different sections of the page
-    
+
+<footer>
+.defines the footer for a document or a section
+.can contain information about the author, copyright information, links to related documents, and other relevant information
+.its not mandatory but its useful for providing additional context and information about the content of the page
+.it supports global and event attributes, similar to the <header> element
+
+<br>
+.defines a line break
+.its an empty tag 
+
+<nav> 
+.defines navigation section sections on a webpage 
+.typically contains links to other pages or sections within the same page,such as main menu, table of contents,
+or index 
+.it improves the semantic structure of the webpage and helps search engines and assistive technologies understand the organization of the content
+
+<script>
+.embeds client-side scripts or links to JS files, enabling dynamic content, form validation and 
+style manipulation 
+       attributes:                     description
+       async                           specifies that the script should be executed asynchronously as soon as it is available
+       defer                           specifies that the script should be executed after the document has been parsed  
+       cross-origin                    specifies how the script should be handled in terms of CORS (Cross-Origin Resource Sharing) policies
+       integrity                       specifies a hash value for Subresource Integrity (SRI) to ensure the script has not been tampered with
+       nomodule                        specifies that the script should not be executed in browsers that support ES6 modules
+       referrerpolicy                  specifies the referrer information to be sent when fetching the script
+       nonce                           specifies a cryptographic nonce for Content Security Policy (CSP) to allow the script to be executed
+       src                             specifies the URL of an external script file to be executed
+       typeof                          specifies the type of script being embedded (e.g., "text/javascript", "module")
