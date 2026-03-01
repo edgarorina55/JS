@@ -22,3 +22,19 @@ Reserved characters
 Other characters
 .aren't available directly on the keyboard therefore only the entity number can be used to represent it
     .keywords are not directly available to type, therefore need to specify their entity number 
+
+Non-breaking space
+.provides space that will not break into a new line
+.the HTML entity is represented by &nbsp; that will separate the 2 words & will stick together without breaking it into a new line
+.can also be used for preventing the browsers from truncating spaces in HTML pages 
+.the non-breaking hyphen (-) is used to define a hyphen character that doesn't break into a new line
+
+Combining diacritical marks 
+.symbols added to a letter 
+    .like the different accents 
+.can be placed above, below, or inside a letter, or between two letters
+
+Pointers
+.use named entities when possible 
+.verify entity codes 
+.use entities for readability and compliance 
