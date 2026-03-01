@@ -4,3 +4,24 @@ Document Object Model
 .structured representation of a web page 
 .allows developers to access, modify, and control webpage content and structure using JS
 .it powers most dynamic website interactions, enabling features like real-time updates, form validation, and interactive user interfaces 
+.its a tree structure 
+    .each HTML tag is a node 
+    .<html> is the root element 
+        .contains both <head> and <body> as child elements
+.container elements - those nesting other elements 
+.child elements - don't contain other elements 
+.the hierarchy allows developers to navigate and manipulate web page content using JS 
+    .by traversing from parent to child and vice versa 
+
+Structure 
+    .document  ==  root 
+    .HTML tags == branches 
+    .attributes, texts and other elements == leaves 
+
+
+Requirement/ Need for DOM
+.dynamic content updates 
+    .allows content updates without reloading the page e.g form validation
+.user interaction 
+    .it makes the webpage interactive e.g responding to button clicks
+    
