@@ -7,3 +7,18 @@ directly or have special meanings in HTML
 .help avoid errors or misinterpretation in HTML code 
 .commonly used for symbols, non-breaking spaces, and mathematical signs 
 .make web content more readable and properly formatted 
+
+list
+
+Reserved characters
+.either reserved for HTML or are not present in the basic keyboard & can't be used directly
+        character                       entity name
+        &                                  &amp;
+        <                                  &lt;
+        >                                  &gt;
+        "                                  &quot;
+
+
+Other characters
+.aren't available directly on the keyboard therefore only the entity number can be used to represent it
+    .keywords are not directly available to type, therefore need to specify their entity number 
