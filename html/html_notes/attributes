@@ -44,3 +44,4 @@ Pointers
 .booleans don't require values; if present, its considered present 
 .ideal order when present:
     id > class > other global attributes > specific attributes > event attributes 
+.must be inside the opening tag for the browser to correctly associate them with the element 

@@ -13,4 +13,11 @@ Properties
 <br> - element creates a line break, giving you a new line without starting a new paragraph
       . use it when I want to move to the next line without beginning a whole new paragraph 
 
-      
+<p> - supports the alignment attribute and allows us to align our paragraphs in left, right, or center alignment
+    
+    
+Pointers
+.avoiding nested paragraphs - each <p> tag should contain only the text for one block of content
+.avoid using <p> for non-textual content - use appropriate tags for images, lists, etc., instead of wrapping them 
+    in <p> tags
+
