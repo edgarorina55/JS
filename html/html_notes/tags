@@ -6,4 +6,34 @@ Tags
 .block-level element 
 .browsers automatically add line breaks and spacing before and after each tags 
 .due to browsers adding default styling to <p> tags, override them with CSS
+
+<a>/ link tag attributes
+        attributes:                     description
+        href                            specifies the URL of the page the link goes to
+        target                          specifies where to open the linked document 
+        title                           specifies extra information about the link (displayed as a tooltip when the mouse hovers over the link)
+        rel                             specifies the relationship between the current document and the linked document (e.g., "
+        media                           specifies the media type of the linked document (e.g., "screen", "print")
+        hreflang                        specifies the language of the linked document (e.g., "en" for English, "fr" for French)
+        download                        specifies that the linked document should be downloaded instead of opened in the browser (can also specify a filename for the downloaded file)
+        charset                         specifies the character encoding of the linked document (e.g., "UTF-8")
+        name                            specifies a name for the anchor (used for linking to specific sections within the same page)
+        shape                           specifies the shape of the clickable area for an image link (e.g., "rect", "circle", "poly")
+        rev                             specifies the reverse relationship between the current document and the linked document (e.g., "author", "bookmark")
+
+<div>
+.defines a division or a section in an HTML document
+.used as a container for HTML elements to style them with CSS or to perform certain tasks with JavaScript
+.block-level element
+    .can behave like an inline element while retaining block-level properties
+
+.use classes and IDs to style <div> elements with CSS
+
+<header>
+.defines the introductory content of a document or a section
+.can contain headings, logos, navigation links, search bar, and other introductory elements
+.cannot be placed within <footer>, <address>, or <header> elements
+.doesn't have attributes of its own, but can use global attributes - id, class, style, etc.
+.it also supports event attributes like onclick, onmouseover, etc. for interactivity
+.can be multiple <header> elements in a document, but they should be used to group introductory content for different sections of the page
     
