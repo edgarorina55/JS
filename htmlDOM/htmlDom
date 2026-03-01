@@ -24,4 +24,24 @@ Requirement/ Need for DOM
     .allows content updates without reloading the page e.g form validation
 .user interaction 
     .it makes the webpage interactive e.g responding to button clicks
-    
+.flexibility  
+    .devs can add, modify, or remove elements and styles in real time 
+.cross-platform compatibility 
+    .provides standard way for scripts to interact with web documents, ensuring browser compatibility
+
+Working of DOM
+.it connects the webpage to JS, allowing me to:
+    .access elements 
+    .modify content 
+    .react to event 
+    .create or remove elements dynamically 
+
+Types of DOM
+.3 parts:
+    .Core DOM
+        .standard model for all document types 
+    .XML DOM 
+        .standard model for XML documents 
+    .HTML DOM 
+        .standard model for HTML documents     
+
