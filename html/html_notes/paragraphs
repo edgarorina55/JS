@@ -4,3 +4,13 @@ Paragraphs
 .helps divide content into manageable, readable, sections 
     .its go-to element for wrapping text in a web page that is meant to be displayed as a distinct paragraph
 
+
+Properties
+.the browser reduces multiple spaces added by users to a single space
+.if a user adds various lines, the browser compresses them into one line
+.by default, the display of the paragraph element is set to 'block', meaning each new paragraph is placed on a new line
+
+<br> - element creates a line break, giving you a new line without starting a new paragraph
+      . use it when I want to move to the next line without beginning a whole new paragraph 
+
+      
