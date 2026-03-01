@@ -5,3 +5,12 @@ Links
 .<a> anchor tag creates hyperlinks, using the href attribute to specify the destination URL
 .can link text, images, or buttons for navigation 
 .links can open in the same tab or a new tab using the target attribute, and other common attributes include title for additional information
+.the target attribute in the anchor tag specifies where to open the linked document
+    .it controls whether the link opens in the same window, new window, or a specific frame 
+
+list:
+_blank - opens the linked document in a new window or tab 
+_self - opens the linked document in the same frame or window as the link (default behavior)
+_parent - opens the linked document in the parent frame 
+_top - opens the linked document in the full body of the window 
+framename - opens the linked document in a specified frame; the frame's name is specified in the attribute 
