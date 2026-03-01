@@ -4,3 +4,13 @@ Semantics
 .provide meaningful tags that clearly describe their purpose
     .clearly define the role and content of elements 
 .improve readability, accessibility, and SEO for both humans and browsers
+
+list:
+<article> - for content that stands alone and can be independently distributed or reused, e.g blog post/ news article
+<aside> - places content in a sidebar, aside from the existing content
+    .related to the surrounding content
+<details> - defines additional details that the user can hide or view 
+<summary> - defines a visible heading for a details element 
+<figure>/ <figcaption> - used together in HTML to display an image/ illustration with a descriptive caption
+<header> - for the header of a section introductory of a page 
+    .can be multiple in a page 
