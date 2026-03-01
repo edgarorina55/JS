@@ -1,0 +1,7 @@
+Links 
+
+.connect one web page to another
+.allows users to navigate easily between different pages, webistes, or sections within the same page 
+.<a> anchor tag creates hyperlinks, using the href attribute to specify the destination URL
+.can link text, images, or buttons for navigation 
+.links can open in the same tab or a new tab using the target attribute, and other common attributes include title for additional information
