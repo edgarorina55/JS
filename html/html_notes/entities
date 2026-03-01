@@ -1,0 +1,9 @@
+Entities
+
+.special codes used to display reserved characters, symbols, or invisible spaces in a webpage that cannot be typed 
+directly or have special meanings in HTML 
+.used to display special characters that HTML normally reserves 
+.always start with & and end with ;
+.help avoid errors or misinterpretation in HTML code 
+.commonly used for symbols, non-breaking spaces, and mathematical signs 
+.make web content more readable and properly formatted 
