@@ -67,3 +67,19 @@ The Object
 .all the properties, methods, and events available for manipulating and creating webpages are organized into 
 objects inside DOM
 .modern DOM id built using APIs working together 
+.the core DOM defines the objects that fundamentally describe a document and the objects within it
+.this is enhanced and expanded upon need
+    e.g the HTML DOM API adds support for representing HTML documents to the core DOM 
+
+The Interface
+.an interface is like a blueprint that defines the properties and methods available for different types of elements
+    e.g a <table> element uses the HTMLTableElement interface which gives it special table-specific methods 
+.most elements inherit features from more general interfaces like Element and Node allowing devs to interact with 
+them more easily using JS
+    HTML Table Element => HTML Element => Document => Node => Event Target
+
+    .shows how different types of HTML elements are related through interfaces:
+        .EventTarget - base interface from which most DOM nodes inherit
+            .allows elements to listen for and respond to events
+        .Node - extends EventTarget and represents any single point in the document tree, such as elements, text
+    .
