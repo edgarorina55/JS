@@ -82,4 +82,27 @@ them more easily using JS
         .EventTarget - base interface from which most DOM nodes inherit
             .allows elements to listen for and respond to events
         .Node - extends EventTarget and represents any single point in the document tree, such as elements, text
-    .
+        .Document - specialized type of node acting as the entry point to the entire DOM tree i.e the web page 
+        .HTMLElement - extends node and reps any HTML element 
+        .HTMLTableElement - more specific type of HTMLElement tailored for <table> elements, giving it extra
+        table-related methods like insertRow()
+
+Accessing data from DOM
+.JS uses DOM to access the document and its elements in the webpage using the API for the document or window 
+.   e.g the standard DOM specifies that the getElementByTagName method in the code below must return a list of all
+the <p> elements in the document 
+        const paragraphs = document.getElementsByTagName("p");
+            // paragraphs[0] is the first <p> element
+
+.similarly, we can also access HTML elements by:
+    .id: var x = document.getElementById("intro"); only one element gets returned with this method
+    .class name: var x = document.getElementsByClassName("intro");
+    .CSS selectors: var x = document.querySelectorAll("p.intro");
+    .HTML elements by HTML object collections:
+            document.anchors.length;
+            document.forms.length;
+            document.images.length;
+            document.links.length;
+            document.scripts.length;
+
+DOM Data Types
