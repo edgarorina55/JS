@@ -106,3 +106,19 @@ the <p> elements in the document
             document.scripts.length;
 
 DOM Data Types
+.the different types of data or building blocks used behind the scenes
+.document - entire webpage; its the starting point/ big box that holds everything I see on the website
+.node - anything on the webpage; small part/piece of the whole page 
+.element - specific type of node; visible parts of the page 
+.nodelist - group of nodes stored together 
+
+                DOM Methods                         Description
+    getElementById(id)                     selects an element by its unique ID
+    getElementsByClassName(class)           retrieves all elements that share a given class name 
+    querySelector(selector)                 returns the first element that matches the specified selector
+    querySelectorAll(selector)              selects all the elements that match the given selector 
+    createElement(tag)                      creates a new HTML element dynamically
+    appendChild(node)                       adds a child node to an existing element
+    remove()                                called to remove an element from the DOM
+    addEventListener(event, fn)             attaches an event handler function to an element 
+    
