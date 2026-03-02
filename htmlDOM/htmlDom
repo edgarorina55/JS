@@ -45,3 +45,25 @@ Types of DOM
     .HTML DOM 
         .standard model for HTML documents     
 
+Properties 
+.node-based 
+    .element nodes, text nodes, attribute nodes 
+.hierarchical 
+    .it has parent-child relationship forming tree structure 
+.live 
+    .changes made to the DOM using JS are immediately reflected on the web page 
+.platform-independent 
+    .it works across different platforms, browsers, and programming languages 
+
+The Document 
+.the document interface represents a web page loaded in the browser and acts as the main entry point to 
+its content
+.it allows devs to access and manipulate the page through the DOM tree
+.the interface provides global access to page information such as the URL 
+.it enables creating, modifying, and managing elements within the web page 
+
+
+The Object
+.all the properties, methods, and events available for manipulating and creating webpages are organized into 
+objects inside DOM
+.modern DOM id built using APIs working together 
