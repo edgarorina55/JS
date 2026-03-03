@@ -22,3 +22,26 @@ HTML DOM API Abilities
 
 DOM API is the standard for how to get, change, add, or delete HTML DOM elements
 JS is the language used in browsers to access DOM through the API
+
+.devs use global objects like document and window as entry-points to any API
+.always start with accessing the document object (represents the web page) if I want to access any element in an HTML page 
+    .its the owner of all other objects in the web page 
+    .to manipulate HTML with JS, first select an element
+
+
+Manipulating structure:
+    >> document.create/remove/append/replaceElement/Child()
+
+Accessing element content
+    >> element.innerHTML/textContent 
+
+Accessing element attributes
+    >> element.attribute/style.property 
+
+Changing element attributes
+    >> element.setAttribute() 
+
+Adding event handlers
+    >> document.getElementById(id).onclick = function(){code} - adding event handler code to an onclick event 
+
+    
