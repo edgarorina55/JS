@@ -60,4 +60,25 @@ Using the console to debug
     .print objects and arrays
     .print checkpoints in the code to see if they are reached
 
-    
+
+When to use console.log() for debugging:
+1. When you want to check the value of a variable at a specific point in the code
+2. When you want to see the flow of execution in your code
+3. When you want to identify where an error is occurring in your code
+4. When you want to check if a function is being called and what arguments it is receiving
+5. When you want to check the output of a function or a block of code
+
+Best practices for using console.log() for debugging:
+1. Use descriptive messages to indicate what you are logging and where in the code it is happening
+2. Remove or comment out console.log() statements once you have finished debugging to keep your code clean
+3. Use console.error() for logging errors instead of console.log() to make it easier to identify issues in the console
+4. Use console.warn() for logging warnings instead of console.log() to differentiate between errors and warnings in the console
+5. Use console.table() for logging arrays and objects to make it easier to read and understand the data structure in the console
+
+When not to use console.log() for debugging:
+1. When you are working with sensitive information that should not be logged to the console
+2. When you are working in a production environment where logging to the console may impact performance or security
+3. When you are working with large amounts of data that may overwhelm the console and make it difficult to find relevant information
+4. When you are working with asynchronous code where the order of execution may not be predictable, making it difficult to interpret console.log() output
+5. When you are working with complex data structures that may not be easily represented in the console, making it difficult to understand the output of console.log() statements debugging is an essential skill for developers to identify and fix errors in their code. 
+    By using tools like console.log() and following best practices, developers can efficiently debug their code and improve the overall quality of their applications.    
