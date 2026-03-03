@@ -1,0 +1,24 @@
+HTML DOM
+
+.used to access HTML elements 
+    .most commonly using the element's id
+
+API method - action done to an HTML element
+API property - value that can be accessed on an HTML element 
+
+>> using example:
+    getElementById - document method
+    myPara = getElementByID - retrieves the 'demo' element
+    innerHTML - element property
+    myPara.HTML - changes the property 
+
+
+HTML DOM API Abilities
+.finding and selecting elements
+.changing element content and attributes
+.adding, removing, or modifying elements
+.changing CSS styles
+.adding event listeners to react to user input  
+
+DOM API is the standard for how to get, change, add, or delete HTML DOM elements
+JS is the language used in browsers to access DOM through the API
