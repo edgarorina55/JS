@@ -1,0 +1,63 @@
+Debugging
+
+.finding out why code doesn't work 
+    .finding and fixing mistakes in code 
+
+Why?
+    .syntax or logical errors 
+.check facts 
+    Read => Reproduce => Repair => Fix 
+    .read the error 
+    .reproduce the problem 
+    .reduce to a small example 
+    .fix it 
+
+code debugging - searching for and fixing error in programming code 
+    .the testing, finding, and fixing of errors in computer programs
+
+.set breakpoint - a point in the code where the program will stop executing so that you can examine the state of the program at that point
+.step through code - executing code one line at a time to understand how it works and identify where errors may be occurring
+.inspect variables - checking the values of variables at different points in the code to see if they are what you expect them to be
+.use debugging tools - software that helps you find and fix errors in your code, such as debuggers, profilers, and loggers
+
+Process:
+1.look in the console for error messages and read them carefully to understand what went wrong
+2. use console.log() statements to check the values of variables at different points in the code to see where the error may be occurring
+>> log the value before and after the line I suspect is causing the error to see how it changes and identify where the problem may be occurring.
+3.confirm assumptions 
+    .check if the variables have the expected values
+    .check the type of the variables
+
+.read the error message 
+    .reference error - name does not exist 
+        .often misspelling or variable not defined
+    .type error - value is not of the expected type
+    .syntax error - code is not written in the correct format
+    .logical error - code runs without errors but produces incorrect results
+
+
+
+Using the console to debug
+
+.most useful patterns for beginners:
+1. console.log() - to print out the value of variables or messages to the console for debugging purposes
+2. console.error() - to print out error messages to the console
+3. console.warn() - to print out warning messages to the console
+4. console.table() - to display data in a tabular format in the console for easier visualization
+5. console.time() and console.timeEnd() - to measure the time taken for a block of code to execute  
+
+    .print a variable to the console to check its value
+    .print a message to the console to indicate where in the code you are
+    .print the value of a variable before and after a line of code to see how it changes
+    .use console.error() to print out error messages when an error occurs
+    .use console.warn() to print out warning messages when something is not ideal but not necessarily an error
+    .use console.table() to display data in a more readable format when working with arrays or objects
+    .use console.time() and console.timeEnd() to measure the time taken for a block of code to execute and identify performance issues
+
+    .print a variable 
+    .print inside a function
+    .print inside loops
+    .print objects and arrays
+    .print checkpoints in the code to see if they are reached
+
+    
